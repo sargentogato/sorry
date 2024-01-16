@@ -1,0 +1,106 @@
+.mainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.message__BTN--si {
+  background-color: rgb(95, 94, 93);
+  border-radius: 8px;
+  color: #f48c25;
+  font-weight: 900;
+  margin-top: 15px;
+  padding: 2px 24px;
+}
+
+.message__BTN--si:hover {
+  -webkit-box-shadow: 1px 1px 125px 8px rgba(255, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 125px 8px rgba(255, 0, 0, 1);
+  box-shadow: 1px 1px 125px 8px rgba(255, 0, 0, 1);
+  color: rgb(95, 94, 93);
+  background-color: #f48c25;
+}
+
+.message.hide {
+  display: none;
+}
+
+.heart.hide {
+  display: none;
+}
+
+.heart.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart__picture {
+  color: red;
+  font-size: 25rem;
+  display: block;
+  border: solid 2px;
+}
+
+.heart__message {
+  font-size: 2rem;
+}
+/* #perdonRespuesta,
+#teQuieroRespuesta {
+  display: none;
+}
+.heart__message,
+.heart {
+  display: block;
+  text-align: center;
+}
+
+.respuestas {
+  display: block;
+  text-align: center;
+}
+
+.respuestas.hide {
+  display: none;
+  text-align: center;
+}
+
+#corazon {
+  font-size: 12em;
+  color: red;
+  text-align: center;
+} */
+
+/*        #perdonRespuesta, #teQuieroRespuesta {
+            display: none;
+        }
+
+        #teQuieroRespuesta.show {
+            display: block;
+        }
+
+        .respuestas {
+            display: block;
+        }
+
+        .respuestas.hide {
+            display: none;
+        }
+
+        #corazon {
+            font-size: 3em;
+            color: red;
+        }*/
