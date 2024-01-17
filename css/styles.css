@@ -25,13 +25,20 @@
   font-size: 1.5rem;
 }
 
-.message__BTN--si {
+[class^="message__BTN--"] {
   background-color: rgb(95, 94, 93);
   border-radius: 8px;
   color: #f48c25;
   font-weight: 900;
   margin-top: 15px;
+}
+
+.message__BTN--si {
   padding: 2px 24px;
+}
+
+.message__BTN--no {
+  padding: 2px 19px;
 }
 
 .message__BTN--si:hover {

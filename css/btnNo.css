@@ -1,4 +1,4 @@
-.message__BTN {
+.message__BTN--no {
   position: absolute;
   z-index: 2;
   transform: translateX(-105%);
