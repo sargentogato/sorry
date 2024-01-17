@@ -1,3 +1,7 @@
+.mainBox.hide {
+  display: none;
+}
+
 .mainBox {
   display: flex;
   justify-content: center;
@@ -5,12 +9,16 @@
   height: 100%;
 }
 
-.message {
+.message.show {
   display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   padding-top: 15px;
+}
+
+.message.hide {
+  display: none;
 }
 
 .title {
@@ -34,7 +42,7 @@
   background-color: #f48c25;
 }
 
-.message.hide {
+/* .message.hide {
   display: none;
 }
 
@@ -46,7 +54,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 .heart__picture {
   color: red;
