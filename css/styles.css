@@ -33,6 +33,12 @@
   margin-top: 15px;
 }
 
+.message__BTNS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .message__BTN--si {
   padding: 2px 24px;
 }
@@ -49,20 +55,6 @@
   background-color: #f48c25;
 }
 
-/* .message.hide {
-  display: none;
-}
-
-.heart.hide {
-  display: none;
-}
-
-.heart.show {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .heart__picture {
   color: red;
   font-size: 25rem;
@@ -73,49 +65,3 @@
 .heart__message {
   font-size: 2rem;
 }
-/* #perdonRespuesta,
-#teQuieroRespuesta {
-  display: none;
-}
-.heart__message,
-.heart {
-  display: block;
-  text-align: center;
-}
-
-.respuestas {
-  display: block;
-  text-align: center;
-}
-
-.respuestas.hide {
-  display: none;
-  text-align: center;
-}
-
-#corazon {
-  font-size: 12em;
-  color: red;
-  text-align: center;
-} */
-
-/*        #perdonRespuesta, #teQuieroRespuesta {
-            display: none;
-        }
-
-        #teQuieroRespuesta.show {
-            display: block;
-        }
-
-        .respuestas {
-            display: block;
-        }
-
-        .respuestas.hide {
-            display: none;
-        }
-
-        #corazon {
-            font-size: 3em;
-            color: red;
-        }*/
