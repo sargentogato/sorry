@@ -4,6 +4,25 @@ let containerMessage = document.querySelector(".message");
 let boton_no = document.getElementById("botonNo");
 
 const clickManagerBtnSi = (Event) => {
+  /* ******************** */
+  // Asegúrate de que la biblioteca Lottie esté cargada antes de ejecutar este código
+
+  // Obtén el contenedor donde deseas mostrar la animación
+  var contenedor = document.getElementById("miAnimacion");
+
+  // Configura las opciones de la animación (ruta al archivo JSON, loop, autoplay, etc.)
+  var opcionesAnimacion = {
+    container: contenedor,
+    renderer: "svg", // o 'canvas' si prefieres
+    loop: true,
+    autoplay: true,
+    path: "sorry/assets/imges/Animation.json", // Reemplaza esto con la ruta correcta a tu archivo JSON
+  };
+
+  // Crea la instancia de la animación con las opciones
+  var animacion = lottie.loadAnimation(opcionesAnimacion);
+  /* ******************** */
+
   console.log("SI", Event);
   if (te_quiero_respuesta.classList.contains("hide")) {
     te_quiero_respuesta.classList.remove("hide");
