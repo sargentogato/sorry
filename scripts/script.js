@@ -16,7 +16,7 @@ const clickManagerBtnSi = (Event) => {
     renderer: "svg", // o 'canvas' si prefieres
     loop: true,
     autoplay: true,
-    path: "sorry/assets/imges/Animation.json", // Reemplaza esto con la ruta correcta a tu archivo JSON
+    path: "assets/imges/Animation.json", // Reemplaza esto con la ruta correcta a tu archivo JSON
   };
 
   // Crea la instancia de la animación con las opciones
