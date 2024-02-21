@@ -33,10 +33,20 @@ const clickManagerBtnSi = (Event) => {
 const clickManagerBtnNo = (Event) => {
   const width = window.innerWidth;
   const height = window.innerHeight;
+  const limitWidth = 170;
+  const limitHeight = 150;
 
   hamasterBtn.style.position = "absolute";
-  hamasterBtn.style.left = (Math.random() * width) / 2 + "px";
-  hamasterBtn.style.top = (Math.random() * height) / 2 + "px";
+  hamasterBtn.style.left =
+    Math.max(Math.floor(Math.random() * width - limitWidth), limitWidth) + "px";
+  hamasterBtn.style.top =
+    Math.max(Math.floor(Math.random() * height - limitHeight), limitHeight) +
+    "px";
+
+  console.log(
+    "🚀 ~ clickManagerBtnNo ~ hamasterBtn.style.left :",
+    hamasterBtn.style.left,
+  );
 };
 
 boton_si.addEventListener("click", clickManagerBtnSi, false);
