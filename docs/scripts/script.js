@@ -2,6 +2,7 @@ let boton_si = document.getElementById("botonSi");
 let te_quiero_respuesta = document.querySelector(".hide");
 let containerMessage = document.querySelector(".message");
 let boton_no = document.getElementById("botonNo");
+const hamasterBtn = document.getElementById("hamsterBtn");
 
 const clickManagerBtnSi = (Event) => {
   var contenedor = document.getElementById("miAnimacion");
@@ -30,9 +31,12 @@ const clickManagerBtnSi = (Event) => {
 };
 
 const clickManagerBtnNo = (Event) => {
-  boton_no.style.position = "absolute";
-  boton_no.style.left = Math.random() * 200 + "px";
-  boton_no.style.top = Math.random() * 200 + "px";
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  hamasterBtn.style.position = "absolute";
+  hamasterBtn.style.left = (Math.random() * width) / 2 + "px";
+  hamasterBtn.style.top = (Math.random() * height) / 2 + "px";
 };
 
 boton_si.addEventListener("click", clickManagerBtnSi, false);
