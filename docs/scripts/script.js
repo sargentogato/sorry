@@ -35,7 +35,7 @@ const clickManagerBtnNo = (Event) => {
   const height = window.innerHeight;
   const limitWidth = 170;
   const limitHeight = 150;
-  const margin = 50; // Margen de 50px
+  const margin = 70; // Margen de 50px
 
   hamasterBtn.style.position = "absolute";
 
