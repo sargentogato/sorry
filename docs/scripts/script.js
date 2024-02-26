@@ -46,10 +46,7 @@ const clickManagerBtnNo = (Event) => {
   hamasterBtn.style.left = randomLeft + "px";
   hamasterBtn.style.top = randomTop + "px";
 
-  console.log(
-    "🚀 ~ clickManagerBtnNo ~ hamasterBtn.style.left :",
-    hamasterBtn.style.left
-  );
+
 };
 
 boton_si.addEventListener("click", clickManagerBtnSi, false);
