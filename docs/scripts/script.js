@@ -35,17 +35,20 @@ const clickManagerBtnNo = (Event) => {
   const height = window.innerHeight;
   const limitWidth = 170;
   const limitHeight = 150;
+  const margin = 50; // Margen de 50px
 
   hamasterBtn.style.position = "absolute";
-  hamasterBtn.style.left =
-    Math.max(Math.floor(Math.random() * width - limitWidth), limitWidth) + "px";
-  hamasterBtn.style.top =
-    Math.max(Math.floor(Math.random() * height - limitHeight), limitHeight) +
-    "px";
+
+  // Calcular la posición dentro de los límites
+  const randomLeft = Math.floor(Math.random() * (width - limitWidth - 2 * margin)) + margin;
+  const randomTop = Math.floor(Math.random() * (height - limitHeight - 2 * margin)) + margin;
+
+  hamasterBtn.style.left = randomLeft + "px";
+  hamasterBtn.style.top = randomTop + "px";
 
   console.log(
     "🚀 ~ clickManagerBtnNo ~ hamasterBtn.style.left :",
-    hamasterBtn.style.left,
+    hamasterBtn.style.left
   );
 };
 
